@@ -76,15 +76,16 @@ dbo:Food rdf:type owl:Class ;
 
           owl:equivalentClass [ rdf:type owl:Class ;
                                 owl:intersectionOf ( :Food
-                                                     [ rdf:type owl:Class ;
-                                                       owl:complementOf :BadFood
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty dct:subject ;
+                                                       owl:hasValue dbc:Indonesian_cuisine
                                                      ]
                                                    )
                               ] ;
 
           rdfs:subClassOf :Food ;
 
-          rdfs:comment "Anything that is not BadFood is GoodFood" .
+          rdfs:comment "Anything that is an Indonesian dish is good food!" .
 
 
 
