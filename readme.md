@@ -156,4 +156,6 @@ SELECT ?food WHERE {
 
 You will get the same results as the ones you saw in the Protege interface.
 
-In essence this is almost everything that is minimally required for the implementation part of the Final Project assignment. You need to think about what you want to present to your users, and how you want to use inferencing to show interesting stuff. The more of this technical process is hidden to your users, the better.
+In essence this is almost everything that is minimally required for the implementation part of the Final Project assignment. You need one more external dataset, you need to think about what you want to present to your users, and how you want to use inferencing to show interesting stuff. 
+
+The more of this technical process is hidden to your users, the better, but it is not a strict requirement for getting a good grade! It is fine if getting your application to show nice results requires a bit of button-clicking and pasting SPARQL. queries.
