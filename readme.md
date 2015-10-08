@@ -130,6 +130,10 @@ If we then open the file again in Protege, and run the reasoner, the result is t
 
 You can see that now also `dbr:Kapsalon` and `dbr:Stoemp` are categorised as `:BadFood`.
 
+Adding a `:GoodFood` class that holds all dishes that belong to the category `dbc:Indonesian_cuisine` is now almost effortless:
+
+![](./screenshot3.png)
+
 ## Stardog & Web Application
 
 This is the basis of a Semantic Web application. You use your ontology and mappings to an external ontology (here DBPedia) to automatically classify data (instances) that you pull in via a SPARQL query.
